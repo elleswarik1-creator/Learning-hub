@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Nanomaterials Quiz</h1>
+
+    <form method="POST">
+
+        {% for q in questions %}
+
+        <div class="question-box">
+
+            <h3>{{ q.question }}</h3>
+
+            {% for option in q.options %}
+
+            <input type="radio"
+                   name="{{ loop.parent.index0 }}"
+                   value="{{ option }}"
+                   required>
+
+            {{ option }}
+            <br>
+
+            {% endfor %}
+
+        </div>
+
+        {% endfor %}
+
+        <button type="submit">Submit Quiz</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

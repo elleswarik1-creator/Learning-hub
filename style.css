@@ -1,0 +1,39 @@
+body{
+    font-family: Arial;
+    background: #f0f2f5;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button{
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.question-box{
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}

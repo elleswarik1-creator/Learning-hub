@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    background-color: #f0f2f5;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.question-box {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
